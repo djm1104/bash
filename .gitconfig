@@ -3,3 +3,5 @@
 [user]
 	email = duranjeppe@gmail.com
 	name = Duran Martin
+[push]
+	default = simple
