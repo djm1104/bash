@@ -124,4 +124,4 @@ export DISPLAY=:0
 alias of1812='source /opt/OpenFOAM/OpenFOAM-v1812/etc/bashrc'
 alias of7='source /opt/openfoam7/etc/bashrc'
 
-alias config='/usr/bin/git --git-dir=/home/duran/.cfg/ --work-tree=/home/duran'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
