@@ -5,3 +5,5 @@
 	name = Duran Martin
 [push]
 	default = simple
+[status]
+	showUntrackedFiles = no
