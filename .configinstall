@@ -1,5 +1,6 @@
 ## run this script with:
 ## curl -Lks https://github.com/djm1104/bash/.configinstall
+## wget -O - https://github.com/djm1104/bash/.configinstall
 git clone --bare https://bitbucket.org/durdn/cfg.git $HOME/.cfg
 function config {
    /usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME $@
