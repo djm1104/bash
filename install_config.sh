@@ -1,11 +1,7 @@
 #!/bin/bash
-apt update
-apt install -y vim git tmux docker
-curl https://raw.githubusercontent.com/docker/docker-ce/master/components/cli/contrib/completion/bash/docker -o /etc/bash_completion.d/docker.sh
 ## run this script with:
-## curl -Lks https://github.com/djm1104/bash/.configinstall
-## wget -O - https://github.com/djm1104/bash/.configinstall
-git clone --bare https://bitbucket.org/durdn/cfg.git $HOME/.cfg
+## curl -Lks https://raw.githubusercontent.com/djm1104/bash/master/.configinstall
+git clone --bare https://github.com/djm1104/bash $HOME/.cfg
 function config {
    /usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME $@
 }
