@@ -9,3 +9,4 @@ if [ ! -z "$USER_ID" ] && [ "$(id -u cpp)" != "$USER_ID" ]; then
     # Set the user's uid and gid
     usermod --non-unique --uid "$USER_ID" --gid "$GROUP_ID" cpp
 fi
+source /home/cpp/.bashrc

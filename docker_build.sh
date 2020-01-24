@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t cpp --network host $HOME/docker/cpp
+docker build -t cpp --network host -f $HOME/docker/cpp/Dockerfile .
