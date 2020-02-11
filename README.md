@@ -3,7 +3,7 @@
 ## Essential Applications (apt install)
 neofetch
 tmux
-vim
+nvim
 docker
 git
 
