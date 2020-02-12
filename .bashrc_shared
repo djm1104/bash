@@ -118,4 +118,7 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+LS_COLORS="ow=01;34:di=01;34"
+export LS_COLORS
 cd
+source /opt/OpenFOAM/OpenFOAM-v1912/etc/bashrc
