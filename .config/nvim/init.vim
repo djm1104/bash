@@ -4,7 +4,8 @@ call plug#begin('~/.vim/plugged')
  Plug 'preservim/nerdtree'
 " Plug 'Xuyuanp/nerdtree-git-plugin'
 " Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-Plug 'https://bitbucket.org/shor-ty/vimextensionopenfoam.git'
+" Plug 'https://bitbucket.org/shor-ty/vimextensionopenfoam.git'
+Plug 'lervag/vim-foam'
 
 call plug#end()
 
